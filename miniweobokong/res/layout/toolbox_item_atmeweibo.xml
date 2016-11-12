@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65.0dip"
+    android:background="@color/seablue" >
+
+    <ImageView
+        android:id="@+id/notification_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/toolbox_title_atmeweibo"
+        android:layout_marginLeft="43dp"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/tool_box_fragment_yixin_icon" />
+
+    <TextView
+        android:id="@+id/toolbox_title_atmeweibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/notification_indicator"
+        android:drawablePadding="20.0dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/listview"
+        android:textColor="#ffccccc6"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_zhuanfa_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/com_sina_weibo_sdk_blue"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_item_zhuanfa_msg"
+        android:autoLink="web"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+       android:textSize="16sp"
+        
+        android:layout_toRightOf="@+id/tv_item_zhuanfa_name"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/iv_item_zhuanfa_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_item_zhuanfa_name"
+        android:src="@drawable/abs__ab_bottom_solid_dark_holo" />
+
+</LinearLayout>

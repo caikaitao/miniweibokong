@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+
+        <EditText
+            android:id="@+id/et_postweibo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10" >
+           
+          
+        </EditText>
+         <ImageView
+                 android:id="@+id/iv_postweibo_showpic"
+                 android:layout_marginBottom="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:visibility="gone"
+          ></ImageView>
+        
+</FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom" >
+		 <ImageButton
+		    android:id="@+id/ib_postweibo_jiatu"
+		    android:layout_gravity="center"
+		    android:layout_width="100dp"
+		    android:layout_height="50dp"
+		   android:layout_marginBottom="5dp"
+		    android:background="@color/seablue"
+		    android:src="@drawable/ic_more" />
+		
+        <Button 
+            android:id="@+id/bt_postweibo_tijiao"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:text="发送"
+            />
+		
+
+		
+
+    </LinearLayout>
+
+</LinearLayout>

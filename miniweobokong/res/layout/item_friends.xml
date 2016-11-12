@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/iv_item_friends"
+        android:layout_width="100dp"
+        
+        android:layout_height="100dp"
+        android:src="@drawable/abs__ab_bottom_solid_dark_holo" />
+
+    <LinearLayout
+       
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_item_friends_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="italic"
+            android:text="asdasdasdas" />
+
+        <TextView
+            android:id="@+id/tv_item_friends_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:text="asdasdasdasdasdasd" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_item_friends_comef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/com_sina_weibo_sdk_blue"
+                android:text="TextView" />
+        </RelativeLayout>
+        
+    </LinearLayout>
+	
+</LinearLayout>
